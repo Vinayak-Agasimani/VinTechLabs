@@ -119,7 +119,7 @@ export function Services() {
           {/* First Clothesline - Top Row */}
           <div className="relative mb-24" style={{ overflow: 'visible' }}>
             {/* Ultra-Realistic Rope - Full width from edge to edge */}
-            <div className="absolute top-8 left-0 right-0 h-4 rope-sway" style={{ animationDuration: '192s' }}>
+            <div className="absolute top-8 left-0 right-0 h-4 rope-sway">
               {/* Rope base with realistic hemp coloring */}
               <div className="w-full h-full bg-gradient-to-b from-yellow-800 via-amber-900 to-yellow-900 rounded-full shadow-lg" />
               
@@ -207,8 +207,7 @@ export function Services() {
                      index === 0 ? 'photo-sway-1' : index === 1 ? 'photo-sway-2' : 'photo-sway-3'
                   }`}
                    style={{
-                     transitionDelay: `${index * 200 + 800}ms`,
-                     animationDuration: index === 0 ? '224s' : index === 1 ? '256s' : '192s'
+                     transitionDelay: `${index * 200 + 800}ms`
                    }}
                   onMouseEnter={() => setHoveredPhoto(service.id)}
                   onMouseLeave={() => setHoveredPhoto(null)}
@@ -330,7 +329,7 @@ export function Services() {
           {/* Second Clothesline - Bottom Row */}
           <div className="relative" style={{ overflow: 'visible' }}>
             {/* Ultra-Realistic Rope - Full width from edge to edge */}
-            <div className="absolute top-8 left-0 right-0 h-4 rope-sway" style={{ animationDelay: '2s', animationDuration: '192s' }}>
+            <div className="absolute top-8 left-0 right-0 h-4 rope-sway" style={{ animationDelay: '2s' }}>
               {/* Rope base with realistic hemp coloring */}
               <div className="w-full h-full bg-gradient-to-b from-yellow-800 via-amber-900 to-yellow-900 rounded-full shadow-lg" />
               
