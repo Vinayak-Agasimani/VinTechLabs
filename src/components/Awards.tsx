@@ -1,37 +1,37 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import onirosAward from '../assets/oniros-award.png'
-import nyifaAward from '../assets/nyifa-award.png'
-import beyondBorderAward from '../assets/beyond-border-award.png'
-import topShortsAward from '../assets/top-shorts-award.png'
-import newLaurelAward from '../assets/new-laurel-award.png'
-import veniceAiAward from '../assets/venice-ai-award.png'
+import globalCinemaAward from '../assets/global-cinema-award.png'
+import digitalArtsAward from '../assets/digital-arts-award.png'
+import futureMediaAward from '../assets/future-media-award.png'
+import creativeVisionAward from '../assets/creative-vision-award.png'
+import nextGenAward from '../assets/next-gen-award.png'
+import revolutionaryCinemaAward from '../assets/revolutionary-cinema-award.png'
 
 export function Awards() {
   const awards = [
     {
-      image: onirosAward,
+      image: globalCinemaAward,
       delay: "0s"
     },
     {
-      image: beyondBorderAward,
+      image: digitalArtsAward,
       delay: "0.5s"
     },
     {
-      image: topShortsAward,
+      image: futureMediaAward,
       delay: "1s"
     },
     {
-      image: newLaurelAward,
+      image: creativeVisionAward,
       delay: "1.5s"
     },
     {
-      image: nyifaAward,
+      image: nextGenAward,
       delay: "2s"
     },
     {
-      image: veniceAiAward,
+      image: revolutionaryCinemaAward,
       delay: "2.5s"
     }
   ]
