@@ -1,9 +1,9 @@
 'use client'
 
 import { ImageWithFallback } from './figma/ImageWithFallback'
-import alexPhoto from '../assets/team-member-7.png'
+import levon from '../assets/team-member-3.png'
 import nataliaPhoto from '../assets/team-member-6.png'
-import newAlexPhoto from '../assets/team-member-3.png'
+import newAlexPhoto from '../assets/team-member-7.png'
 import ivanPhoto from '../assets/team-member-4.png'
 import eugenePhoto from '../assets/team-member-1.png'
 import marinaPhoto from '../assets/team-member-2.png'
@@ -52,7 +52,7 @@ export function Team() {
       crime: "FOUNDING WITH INTENT TO DISRUPT",
       bounty: "$15,000",
       description: "Mastermind behind the entire MOJLI operation. Wanted for revolutionizing video production and making traditional methods obsolete.",
-      image: alexPhoto, // Using the swapped photo from before
+      image: levon, // Using the swapped photo from before
       rotation: 'rotate-1',
       mustacheStyle: "villainous"
     },
