@@ -1,76 +1,76 @@
 'use client'
 
 import { ImageWithFallback } from './figma/ImageWithFallback'
-import levon from '../assets/team-member-3.png'
-import nataliaPhoto from '../assets/team-member-6.png'
-import newAlexPhoto from '../assets/team-member-7.png'
-import ivanPhoto from '../assets/team-member-4.png'
-import eugenePhoto from '../assets/team-member-1.png'
-import marinaPhoto from '../assets/team-member-2.png'
-import vitoPhoto from '../assets/team-member-5.png'
+import marcusPhoto from '../assets/team-member-1.png'
+import sofiaPhoto from '../assets/team-member-2.png'
+import jakePhoto from '../assets/team-member-3.png'
+import mayaPhoto from '../assets/team-member-4.png'
+import connorPhoto from '../assets/team-member-5.png'
+import zaraPhoto from '../assets/team-member-6.png'
+import leoPhoto from '../assets/team-member-7.png'
 
 export function Team() {
   const wantedCriminals = [
     {
-      name: "Alex 'The Director'",
-      crime: "ARMED ARTISTIC ROBBERY",
-      bounty: "$10,000",
-      description: "Notorious for stealing bland concepts and transforming them into cinematic gold. Approach with caution - carries dangerous levels of creative vision.",
-      image: newAlexPhoto,
+      name: "Marcus 'The Pixel Bandit'",
+      crime: "ARMED CREATIVE ROBBERY",
+      bounty: "$8,500",
+      description: "Notorious for stealing ordinary footage and transforming it into extraordinary visual experiences. Approach with caution - carries dangerous levels of creative vision and technical expertise.",
+      image: marcusPhoto,
       rotation: 'rotate-3',
       mustacheStyle: "artistic"
     },
     {
-      name: "Natalia 'The Strategist'",
-      crime: "GRAND THEFT OF DEADLINES",
-      bounty: "$5,000",
-      description: "Wanted for stealing impossible timelines and turning them into perfectly executed masterpieces. Armed with spreadsheets and dangerous levels of organization.",
-      image: nataliaPhoto,
+      name: "Sofia 'The Frame Thief'",
+      crime: "GRAND THEFT OF IMAGINATION",
+      bounty: "$6,200",
+      description: "Wanted for stealing impossible creative briefs and turning them into award-winning masterpieces. Armed with strategic thinking and dangerous levels of project management skills.",
+      image: sofiaPhoto,
       rotation: 'rotate-2',
       mustacheStyle: "handlebar"
     },
     {
-      name: "Eugene 'The Neural Kingpin'",
-      crime: "MASTERMINDING ALGORITHMIC HEISTS",
-      bounty: "$12,000",
-      description: "Ringleader of AI crimes, orchestrating elaborate neural network operations. Wanted for leading sophisticated video generation schemes that defy conventional filmmaking.",
-      image: eugenePhoto,
+      name: "Jake 'The Render Rogue'",
+      crime: "MASTERMINDING TECHNICAL HEISTS",
+      bounty: "$11,800",
+      description: "Ringleader of rendering crimes, orchestrating elaborate computational operations. Wanted for leading sophisticated processing schemes that push hardware beyond its limits.",
+      image: jakePhoto,
       rotation: 'rotate-2',
       mustacheStyle: "thick"
     },
     {
-      name: "Ivan 'The Algorithm Gunslinger'",
-      crime: "DIGITAL SORCERY & NEURAL WIZARDRY",
-      bounty: "$8,000",
-      description: "Wanted for conjuring impossible visuals from thin air using forbidden AI algorithms. Known to transform simple prompts into cinematic masterpieces with dark technological magic.",
-      image: ivanPhoto,
+      name: "Maya 'The Code Crusher'",
+      crime: "DIGITAL WIZARDRY & ALGORITHM SORCERY",
+      bounty: "$9,300",
+      description: "Wanted for conjuring flawless code from chaotic requirements using forbidden programming magic. Known to transform complex problems into elegant solutions with mysterious technical powers.",
+      image: mayaPhoto,
       rotation: '-rotate-2',
       mustacheStyle: "curly"
     },
     {
-      name: "Levon 'The Visionary'",
-      crime: "FOUNDING WITH INTENT TO DISRUPT",
-      bounty: "$15,000",
-      description: "Mastermind behind the entire MOJLI operation. Wanted for revolutionizing video production and making traditional methods obsolete.",
-      image: levon, // Using the swapped photo from before
+      name: "Connor 'The Digital Desperado'",
+      crime: "PRODUCTION WITH INTENT TO AMAZE",
+      bounty: "$13,700",
+      description: "Mastermind behind revolutionary content creation operations. Wanted for disrupting traditional production methods and making competitors question their entire approach.",
+      image: connorPhoto,
       rotation: 'rotate-1',
       mustacheStyle: "villainous"
     },
     {
-      name: "Marina 'The Frame Forger'",
-      crime: "PIXEL MANIPULATION & FRAME FORGERY",
-      bounty: "$7,500",
-      description: "Notorious for crafting synthetic realities so convincing they blur the line between real and artificial. Armed with generative models and a dangerous eye for detail.",
-      image: marinaPhoto,
+      name: "Zara 'The Motion Maverick'",
+      crime: "ANIMATION MANIPULATION & EFFECT FORGERY",
+      bounty: "$7,900",
+      description: "Notorious for crafting motion graphics so smooth they defy the laws of physics. Armed with After Effects mastery and a dangerous eye for kinetic perfection.",
+      image: zaraPhoto,
       rotation: '-rotate-1',
       mustacheStyle: "artistic"
     },
     {
-      name: "Vito 'The Digital Drifter'",
-      crime: "WANDERING VIDEO SYNTHESIS SCHEMES",
-      bounty: "$9,500",
-      description: "A nomadic AI outlaw who drifts from project to project, leaving behind a trail of stunning visuals and impossible video effects. Known for his ability to vanish into the digital frontier.",
-      image: vitoPhoto,
+      name: "Leo 'The Effect Enforcer'",
+      crime: "WANDERING VFX SYNTHESIS SCHEMES",
+      bounty: "$10,400",
+      description: "A nomadic visual effects outlaw who drifts from project to project, leaving behind a trail of jaw-dropping composites and impossible cinematic magic. Master of the digital realm.",
+      image: leoPhoto,
       rotation: 'rotate-3',
       mustacheStyle: "handlebar"
     }
