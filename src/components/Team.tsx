@@ -1,13 +1,13 @@
 'use client'
 
 import { ImageWithFallback } from './figma/ImageWithFallback'
-import alexPhoto from 'figma:asset/fd59eeb2647148baf49eca9874abae100a8f6b96.png'
-import nataliaPhoto from 'figma:asset/7ee2e0cf6894311503fee51eb64b2bf77f851925.png'
-import newAlexPhoto from 'figma:asset/a88ae54c016aa084b50d6cd2afa2f676b458ad08.png'
-import ivanPhoto from 'figma:asset/a964204796806138739e8ae0cda4dfd448f87da3.png'
-import eugenePhoto from 'figma:asset/51926ade2f0715bb61504fbbfa95338e2b90fac1.png'
-import marinaPhoto from 'figma:asset/010950f5d7d23266ac6f364c9a64c278329bf809.png'
-import vitoPhoto from 'figma:asset/854fbbba468f00d40174eed6f122ba93c1b9758d.png'
+const alexPhoto = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop'
+const nataliaPhoto = 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=400&fit=crop'
+const newAlexPhoto = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=400&fit=crop'
+const ivanPhoto = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop'
+const eugenePhoto = 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=400&fit=crop'
+const marinaPhoto = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=400&fit=crop'
+const vitoPhoto = 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&h=400&fit=crop'
 
 export function Team() {
   const wantedCriminals = [

@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import exampleImage from 'figma:asset/6eca8e5e1c7b43325b1254ea0336ed3b84e4f3e1.png'
+const exampleImage = 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=600&fit=crop'
 
 export function About() {
   const [activeFrame, setActiveFrame] = useState(-1)

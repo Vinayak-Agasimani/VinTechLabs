@@ -1,12 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import onirosAward from 'figma:asset/ffc713ded6036e9803a00d96c2ece233713f9cec.png'
-import nyifaAward from 'figma:asset/92b2d610bd96256b5079962592ac1f15594e4fd4.png'
-import beyondBorderAward from 'figma:asset/cd2da3306d63160d609bfc5befcbe8be253a5d86.png'
-import topShortsAward from 'figma:asset/cebce68c98ff3bfa0f987711ba68fde4f577d48d.png'
-import newLaurelAward from 'figma:asset/b095cae5249ec434b914d95680ddc16b2a0ccd94.png'
-import veniceAiAward from 'figma:asset/e5a54b457bd04dc493b7517427186142234c4695.png'
+const onirosAward = 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=150&h=150&fit=crop'
+const nyifaAward = 'https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=150&h=150&fit=crop'
+const beyondBorderAward = 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=150&h=150&fit=crop'
+const topShortsAward = 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=150&h=150&fit=crop'
+const newLaurelAward = 'https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=150&h=150&fit=crop'
+const veniceAiAward = 'https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=150&h=150&fit=crop'
 
 export function Awards() {
   const awards = [
