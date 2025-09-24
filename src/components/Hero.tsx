@@ -90,7 +90,7 @@ export function Hero() {
         playsInline
         poster="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop&crop=center"
       >
-        <source src="https://mojli.s3.us-east-2.amazonaws.com/Mojli+Website+upscaled+(12mb).webm" type="video/webm" />
+        <source src="https://mojju.s3.us-east-2.amazonaws.com/Mojju+Website+upscaled+(12mb).webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
 
@@ -117,7 +117,7 @@ export function Hero() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
-              <span className="font-bagel text-white text-xl tracking-wider">MOJLI</span>
+              <span className="font-bagel text-white text-xl tracking-wider">MOJJU</span>
             </motion.div>
 
             {/* Navigation Menu */}
