@@ -357,7 +357,7 @@
   
   /* Global animation slowdowns */
   .animate-pulse {
-    animation-duration: 4s !important;
+    animation-duration: 8s !important;
   }
   
   /* Clean scrollbar */
