@@ -316,43 +316,48 @@
   }
   
   .float-gentle {
-    animation: float-gentle 12s ease-in-out infinite;
+    animation: float-gentle 24s ease-in-out infinite;
   }
   
   .pulse-glow {
-    animation: pulse-glow 6s ease-in-out infinite;
+    animation: pulse-glow 12s ease-in-out infinite;
   }
   
   .drift-left {
-    animation: drift-left 16s ease-in-out infinite;
+    animation: drift-left 32s ease-in-out infinite;
   }
   
   .drift-right {
-    animation: drift-right 14s ease-in-out infinite;
+    animation: drift-right 28s ease-in-out infinite;
   }
   
   .photo-sway-1 {
-    animation: photoSway1 48s ease-in-out infinite;
+    animation: photoSway1 96s ease-in-out infinite;
   }
   
   .photo-sway-2 {
-    animation: photoSway2 56s ease-in-out infinite;
+    animation: photoSway2 112s ease-in-out infinite;
   }
   
   .photo-sway-3 {
-    animation: photoSway3 44s ease-in-out infinite;
+    animation: photoSway3 88s ease-in-out infinite;
   }
   
   .rope-sway {
-    animation: ropeSlackSway 48s ease-in-out infinite;
+    animation: ropeSlackSway 96s ease-in-out infinite;
   }
   
   .film-scroll-animation {
-    animation: filmScroll 480s linear infinite;
+    animation: filmScroll 960s linear infinite;
   }
   
   .perforations-scroll-animation {
-    animation: perforationsScroll 480s linear infinite;
+    animation: perforationsScroll 960s linear infinite;
+  }
+  
+  /* Global animation slowdowns */
+  .animate-pulse {
+    animation-duration: 4s !important;
   }
   
   /* Clean scrollbar */

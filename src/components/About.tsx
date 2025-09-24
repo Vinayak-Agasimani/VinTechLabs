@@ -63,7 +63,7 @@ export function About() {
         <div className="w-full h-full" style={{
           backgroundImage: `radial-gradient(circle at 1px 1px, rgba(0,0,0,0.8) 1px, transparent 0)`,
           backgroundSize: '3px 3px',
-          animation: 'filmGrain 3s infinite'
+          animation: 'filmGrain 8s infinite'
         }} />
       </div>
 
