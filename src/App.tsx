@@ -26,9 +26,9 @@ export default function App() {
         <section id="services" aria-label="Services section">
           <Services />
         </section>
-        <section id="team" aria-label="Team section" style={{ overflow: 'visible', height: 'auto', minHeight: '0', maxHeight: 'none' }}>
+        {/* <section id="team" aria-label="Team section" style={{ overflow: 'visible', height: 'auto', minHeight: '0', maxHeight: 'none' }}>
           <Team />
-        </section>
+        </section> */}
         <section id="contact" aria-label="Contact section">
           <Contact />
         </section>

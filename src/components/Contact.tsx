@@ -25,18 +25,18 @@ export function Contact() {
           <div className="inline-flex items-center gap-3 mb-6">
             <div className="w-3 h-3 bg-accent-emerald rounded-full animate-pulse" />
             <span className="text-sm font-semibold text-muted-foreground">
-              Let's Create Together
+              Let’s Build Together
             </span>
             <div className="w-3 h-3 bg-accent-blue rounded-full animate-pulse" />
           </div>
           
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-8">
-            <span className="block mb-2">Ready to Light Up the Screen?</span>
+            <span className="block mb-2">Ready to Turn Your Ideas into Reality?</span>
             
           </h2>
           
           <p className="text-2xl lg:text-3xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Book a discovery call to discuss your project and see how we can bring your vision to cinematic reality
+            Book a discovery call and see how VinTechLabs can transform your vision into powerful digital solutions.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export function Contact() {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-xl font-black text-foreground mb-1">
-                    MOJJU Discovery Call
+                    VinTechLabs Discovery Call
                   </h3>
                   <p className="text-muted-foreground">
                     30 minutes • Video call • Free consultation
@@ -65,7 +65,7 @@ export function Contact() {
             <div className="p-0 bg-white">
               <div 
                 className="calendly-inline-widget"
-                data-url="https://calendly.com/d/cvb4-btv-mxp/introduction-with-zeroqode"
+                data-url="https://calendly.com/vintechlabs04/30min"
                 style={{
                   width: '100%',
                   height: '660px',

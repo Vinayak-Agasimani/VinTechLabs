@@ -107,7 +107,7 @@ export function Hero() {
         loop
         playsInline
       >
-        <source src="https://mojli.s3.us-east-2.amazonaws.com/Mojli+Website+upscaled+(12mb).webm" type="video/webm" />
+        <source src="/videos/vintechlabs.webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
 
@@ -134,7 +134,7 @@ export function Hero() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
-              <span className="font-bagel text-white text-xl tracking-wider">MOJJU</span>
+              <span className="font-bagel text-white text-xl tracking-wider">VinTechLabs</span>
             </motion.div>
 
             {/* Navigation Menu */}
@@ -157,12 +157,12 @@ export function Hero() {
               >
                 Capabilities
               </a>
-              <a 
+              {/* <a 
                 href="#team" 
                 className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
               >
                 Team
-              </a>
+              </a> */}
               <a 
                 href="#contact" 
                 className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
@@ -315,14 +315,12 @@ export function Hero() {
       >
         <div className="max-w-2xl">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black leading-tight text-white">
-            <span className="block">AI FILM</span>
-            <span className="block">PRODUCTION</span>
-            <span className="block">WITHOUT LIMITS</span>
+            <span className="block">SMART WEBSITES</span>
+            <span className="block">POWERED BY</span>
+            <span className="block">MODERN TECHNOLOGY</span>
           </h1>
         </div>
       </motion.div>
-
-
     </div>
   )
 }

@@ -7,35 +7,35 @@ export function About() {
   const [activeFrame, setActiveFrame] = useState(-1)
   const [animationStarted, setAnimationStarted] = useState(false)
 
-  const processSteps = [
+    const processSteps = [
     {
       number: "01",
-      title: "Concept & Script",
-      description: "Scene‑by‑scene draft with dialogues and time‑codes",
+      title: "Discovery & Planning",
+      description: "Understanding business goals, target audience, and project requirements",
       color: "accent-blue"
     },
     {
       number: "02", 
-      title: "Look & Storyboard",
-      description: "AI engine selection and visual testing",
+      title: "Design & Architecture",
+      description: "Creating wireframes, UI concepts, and planning the system architecture",
       color: "accent-emerald"
     },
     {
       number: "03",
-      title: "AI Production",
-      description: "Motion tests and multi-variant generation",
+      title: "Development",
+      description: "Building scalable full-stack applications using modern technologies",
       color: "accent-purple"
     },
     {
       number: "04",
-      title: "Post‑production",
-      description: "VFX, color grading, and audio mixing",
+      title: "Testing & Optimization",
+      description: "Performance testing, bug fixing, and improving security and reliability",
       color: "accent-blue"
     },
     {
       number: "05",
-      title: "Master Delivery",
-      description: "Multi-format export and secure transfer",
+      title: "Deployment & Launch",
+      description: "Deploying the product, ensuring smooth launch, and ongoing improvements",
       color: "accent-purple"
     }
   ]
@@ -75,17 +75,17 @@ export function About() {
           <div className="inline-flex items-center gap-3 mb-6">
             <div className="w-3 h-3 bg-accent-emerald rounded-full animate-pulse" />
             <span className="text-sm font-semibold text-muted-foreground">
-              Behind the Scenes
+              Behind the Code
             </span>
             <div className="w-3 h-3 bg-accent-blue rounded-full animate-pulse" />
           </div>
           
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-6 text-foreground">
-            How We Create Magic
+            How We Build Digital Solutions
           </h2>
           
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Watch our process unfold frame by frame
+            Watch our ideas transform into powerful technology step by step.
           </p>
         </div>
 
@@ -299,7 +299,7 @@ export function About() {
         <div className="mt-20">
           <div className="text-center mb-8">
             <p className="text-muted-foreground">
-              A glimpse into our storyboard development process
+              A glimpse into our product development process
             </p>
           </div>
           
@@ -315,14 +315,16 @@ export function About() {
                    }} />
               
               {/* Main gallery image */}
-              <img 
-                src={storyboardImage}
-                alt="Collection of AI-generated video content thumbnails showcasing MOJJU's diverse output"
-                className="w-full h-auto rounded-xl"
-                style={{
-                  filter: 'contrast(1.05) saturate(1.1) brightness(0.95)'
-                }}
-              />
+              <div className="aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/xFLmhSLFFjU?rel=0&modestbranding=1"
+                  title="VinsGPT Project Demo"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="w-full h-full rounded-t-3xl"
+                />
+              </div>
               
               {/* Subtle overlay gradient for depth */}
               <div className="absolute inset-4 rounded-xl pointer-events-none"
@@ -334,7 +336,7 @@ export function About() {
             {/* Caption */}
             <div className="mt-6 text-center">
               <p className="text-sm text-muted-foreground italic">
-                "Diverse scenarios, characters, and styles — all generated through our AI pipeline"
+                "Innovative ideas, modern design, and powerful technology, all crafted through our smart development process."
               </p>
             </div>
           </div>

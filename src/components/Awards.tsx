@@ -1,10 +1,10 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import minimalBestFilm from '../assets/minimal-best-film.png'
-import minimalAudienceChoice from '../assets/minimal-audience-choice.png'
-import minimalInnovation from '../assets/minimal-innovation.png'
-import minimalDirectorsChoice from '../assets/minimal-directors-choice.png'
+import minimalBestFilm from '../assets/IEEE-ViceChair.png'
+import minimalAudienceChoice from '../assets/IEEE-MDC.png'
+import minimalInnovation from '../assets/Internship_Certificate.png'
+import minimalDirectorsChoice from '../assets/SigmaDSA.png'
 import minimalExcellence from '../assets/minimal-excellence.png'
 import minimalRisingTalent from '../assets/minimal-rising-talent.png'
 

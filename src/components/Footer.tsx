@@ -2,17 +2,17 @@
 
 export function Footer() {
   const aiTools = [
-    'Runway Gen-4',
-    'Kling 2', 
-    'Veo 3',
-    'Higgsfield AI',
-    'Hailuo Minimax 2',
-    'Midjourney',
-    'Leonardo AI',
-    'Krea AI',
-    'Runway',
-    'Suno AI',
-    'ElevenLabs'
+    'React',
+    'Next.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Tailwind CSS',
+    'Figma',
+    'Vercel',
+    'GitHub',
+    'Postman',
+    'Cloudflare'
   ]
 
   return (
@@ -23,38 +23,15 @@ export function Footer() {
           <div className="col-span-12 md:col-span-4">
             <div>
               <div className="font-bagel text-background text-3xl tracking-wider mb-4">
-                MOJJU
+                VinTechLabs
               </div>
               <p className="text-background/70 leading-relaxed mb-6">
-                Revolutionizing video production with intelligent AI that understands 
-                creativity, storytelling, and human emotion.
+                Transforming businesses through smart technology and modern digital solutions.
+                Building powerful websites that connect brands, customers, and growth.
               </p>
               {/* Social Media Icons */}
               <div className="flex items-center space-x-6">
-                {/* X (Twitter) */}
-                <a
-                  href="https://x.com/Mojjuai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:scale-110 gentle-animation cursor-pointer"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="#E5E7EB">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                  </svg>
-                </a>
-
-                {/* TikTok */}
-                <a
-                  href="https://www.tiktok.com/@mojju.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:scale-110 gentle-animation cursor-pointer"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="#FF0050">
-                    <path d="M19.321 5.562a5.122 5.122 0 0 1-.443-.258 6.228 6.228 0 0 1-1.137-.966c-.849-.936-1.315-2.117-1.315-3.338h-3.357v14.826c0 1.543-1.252 2.795-2.795 2.795s-2.795-1.252-2.795-2.795 1.252-2.795 2.795-2.795c.293 0 .576.045.843.13V9.804a6.67 6.67 0 0 0-.843-.054c-3.683 0-6.674 2.99-6.674 6.674s2.99 6.674 6.674 6.674 6.674-2.99 6.674-6.674V9.696a9.577 9.577 0 0 0 5.588 1.786V7.627c-1.319 0-2.54-.529-3.42-1.394a4.902 4.902 0 0 1-1.294-2.671z"/>
-                  </svg>
-                </a>
-
+                
                 {/* Instagram */}
                 <a
                   href="https://www.instagram.com/mojju.ai"
@@ -76,7 +53,7 @@ export function Footer() {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://linkedin.com/company/mojju"
+                  href="https://www.linkedin.com/in/vinayak-agasimani-669a63282/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:scale-110 gentle-animation cursor-pointer"
@@ -96,8 +73,8 @@ export function Footer() {
               
               {/* AI Tools Description */}
               <p className="text-background/70 text-base mb-8 leading-relaxed">
-                We leverage the latest AI technology to deliver cutting-edge video production. 
-                Our toolkit combines the best generative AI models for video, audio, and visual content creation.
+                We leverage modern technologies and powerful development frameworks to build scalable digital solutions.
+                Our toolkit combines cutting-edge web technologies, design systems, and cloud platforms to create fast, reliable, and high-performing websites.
               </p>
               
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -118,10 +95,10 @@ export function Footer() {
         <div className="border-t border-background/20 pt-8 mt-16">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-background/70 mb-4 md:mb-0">
-              © 2025 MOJJU. All rights reserved.
+              © 2026 VinTechLabs. All rights reserved.
             </div>
             <div className="text-sm text-background/70">
-              2847 HIGHLAND AVE. SUITE 310 BIRMINGHAM 35205, AL, USA
+              KARNATAKA, INDIA
             </div>
           </div>
         </div>

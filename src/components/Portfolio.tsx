@@ -18,11 +18,11 @@ export function Portfolio() {
           </div>
           
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-8">
-            <span className="block mb-2">Creative Productions</span>
+            <span className="block mb-2">Creative Projects</span>
           </h2>
           
           <p className="text-2xl lg:text-3xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Our latest commercial for Hampton - exploring the lonely journey of startup founders and the power of community.
+            Our latest project - building a ChatGPT clone that explores the power of conversational AI and intelligent digital assistance.
           </p>
         </div>
 
@@ -33,8 +33,8 @@ export function Portfolio() {
             <div className="relative">
               <div className="aspect-video">
                 <iframe
-                  src="https://www.youtube.com/embed/fIbDWDh6aYw?rel=0&showinfo=0&modestbranding=1"
-                  title="Hampton Commercial - The Lonely Journey"
+                  src="https://www.youtube.com/embed/uwBMYvlxF70?rel=0&modestbranding=1"
+                  title="VinsGPT Project Demo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -55,37 +55,37 @@ export function Portfolio() {
               <div className="flex-1">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="bg-accent-purple/10 text-accent-purple px-3 py-1 rounded-full text-sm font-medium">
-                    Commercial
+                    Product Launch
                   </span>
                   <span className="text-sm text-muted-foreground">
-                    Client: Hampton
+                    Client : Vin's_Vision
                   </span>
                 </div>
                 
                 <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-                  The Lonely Journey
+                  VinsGPT
                 </h3>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  A powerful commercial exploring the isolation that startup founders face and how joining Hampton's community can transform that journey. This piece captures the emotional weight of entrepreneurship and the relief that comes with finding your tribe.
+                  An AI-powered assistant built as a full-stack ChatGPT-style application using the MERN stack and integrated with the DeepSeek API. This project focuses on creating a seamless conversational experience while demonstrating modern full-stack architecture and scalable AI integration.
                 </p>
                 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
                   <div>
                     <span className="text-muted-foreground block">Industry</span>
-                    <span className="font-medium">Community Platform</span>
+                    <span className="font-medium">Artificial Intelligence</span>
                   </div>
                   <div>
                     <span className="text-muted-foreground block">Style</span>
-                    <span className="font-medium">Narrative Drama</span>
+                    <span className="font-medium">Conversational Interface</span>
                   </div>
                   <div>
                     <span className="text-muted-foreground block">Tone</span>
-                    <span className="font-medium">Emotional Journey</span>
+                    <span className="font-medium">Modern & Intelligent</span>
                   </div>
                   <div>
                     <span className="text-muted-foreground block">Format</span>
-                    <span className="font-medium">Digital Commercial</span>
+                    <span className="font-medium">Web Application</span>
                   </div>
                 </div>
               </div>
