@@ -274,7 +274,7 @@ export function About() {
             {/* Film Speed Indicator */}
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 bg-accent-emerald rounded-full animate-pulse" />
-              <span className="text-sm font-semibold text-foreground">24 FPS</span>
+              <span className="text-sm font-semibold text-foreground">Modern Stack</span>
             </div>
             
             <div className="w-px h-6 bg-border" />
@@ -290,7 +290,7 @@ export function About() {
             {/* Quality */}
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 bg-accent-purple rounded-full animate-pulse" style={{animationDelay: '1s'}} />
-              <span className="text-sm font-semibold text-foreground">Cinema Quality</span>
+              <span className="text-sm font-semibold text-foreground">Scalable Solutions</span>
             </div>
           </div>
         </div>
