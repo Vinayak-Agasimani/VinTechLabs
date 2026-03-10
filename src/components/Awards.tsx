@@ -61,7 +61,7 @@ export function Awards() {
           </h2>
           
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Celebrated excellence in AI-powered film production
+            Delivering excellence in modern web development
           </p>
         </div>
 
