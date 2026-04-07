@@ -34,7 +34,7 @@ export function Footer() {
                 
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/mojju.ai"
+                  href="https://www.instagram.com/vin.techlabs?igsh=eTA3YTRldWIxeXZ1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:scale-110 gentle-animation cursor-pointer"
